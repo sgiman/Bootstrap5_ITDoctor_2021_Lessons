@@ -1,0 +1,120 @@
+/****************************************************************************************
+ style.css
+
+ ITDoctor
+ Bootstrap 5 tutorials for beginners
+ https://www.youtube.com/watch?v=MbOcveDTHZQ&list=PLuY6eeDuleINmJ4DV22gtPL4--HQ49Df3
+
+ Gradient Constructor
+ https://www.colorzilla.com/gradient-editor/
+
+ CSS triangle generator
+ http://apps.eky.hk/css-triangle-generator/
+
+ Bootstrap 5 docs		
+ https://getbootstrap.com/docs/5.0/getting-started/introduction
+
+ Embed Responsively (for youtube url)
+ https://embedresponsively.com/
+
+----------------------------------------------------------------------------------------
+ ALT+SHIFT+F - авто-выравнивание СSS-кода 
+ p20-auto-20 - padding
+ m30-auto - margin
+****************************************************************************************
+*  Writing by sgiman (SCS) @ 2023-09
+*/
+
+/* --- COMMON --- */
+:root {
+    --color1: #05b1b1;
+    --color2: #52339a;
+}
+
+header,
+footer,
+section {
+    padding: 100px 0;
+}
+
+header {
+    padding: 200px 0;
+}
+
+header,
+footer {
+    background: url(../img/pattern.png), var(--color1);
+    background: url(../img/pattern.png), linear-gradient(to right, var(--color1) 0%, var(--color2) 100%);
+    background-size: contain;
+}
+
+/* --- HEADER BOTTONS --- */
+.scs_play {
+    background-color: var(--color1);
+    width: 60px;
+    height: 60px;
+
+    /* for circle*/
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 30px auto;
+
+    /* плавная анимация при наведении для всех свойств */
+    transition: all 0.2s ease;
+}
+
+.scs_play:hover {
+    background-color: var(--color2);
+}
+
+.scs_triangle {
+    margin-right: -3px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 20px;
+    border-color: transparent transparent transparent var(--bs-white);
+}
+
+.btn-scs {
+    display: block;
+    max-width: 200px;
+
+    /* выровнять по центру */
+    margin: 0 auto;
+
+    padding: 8px 30px;
+    color: var(--bs-white);
+    background-color: var(--color2);
+}
+
+.btn-scs:hover {
+    color: var(--bs-white);
+    background-color: var(--color1);
+}
+
+/* --- MODAL VIDEO --- */
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/* --- END MODAL VIDEO --- */
+
+
