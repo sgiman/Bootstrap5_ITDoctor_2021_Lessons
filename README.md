@@ -9,7 +9,8 @@ This course explains in detail: what Bootstrap 5 is,
 how to connect Bootstrap 5, how to work with the Bootstrap 5 grid 
 and create responsive websites using Bootstrap 5.
 
-![bootsrap5](https://github.com/sgiman/Bootstrap5/assets/7030369/97713609-215c-4d19-b0bb-cee8b3292411)
+![bootsrap5](https://github.com/sgiman/Bootstrap5/assets/7030369/3484dc79-abc1-4810-8612-65b68513abd6)
+
 
 
 **sgiman @ 2023**
