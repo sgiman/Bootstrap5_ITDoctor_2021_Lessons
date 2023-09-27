@@ -12,6 +12,5 @@ and create responsive websites using Bootstrap 5.
 ![bootsrap5](https://github.com/sgiman/Bootstrap5/assets/7030369/3484dc79-abc1-4810-8612-65b68513abd6)
 
 
-
 **sgiman @ 2023**
 
